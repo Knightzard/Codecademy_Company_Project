@@ -1,0 +1,502 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.main-content {
+    position: relative;
+    top: 80px;
+}
+
+
+
+/* =================================== HEADER =================================== */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #334717;
+    z-index: 5;
+    border-bottom: 1px solid black;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.875rem;
+}
+
+header .logo img {
+    width: 80px;
+}    
+
+header a {
+    display: flex;
+    color: #8FC740;;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* header .content-desktop {
+    display: inline-flex;
+    justify-items: space-between;
+} */
+
+header .name-logo {
+    padding-left: .5rem;
+    font-size: 1.05rem;
+}
+
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.desktop li {
+    list-style: none;
+    padding: 2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #8FC740;
+    font-size: 0.9rem;
+}
+
+
+/* =================================== Featured Section ===================================*/
+
+#featured-section {
+    background-image: url(Image/Welding_Img_006.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 42rem;
+    display: flex;
+}
+
+#featured-section-project {
+    color: #8dc63f  ;
+    margin: auto;
+    position: relative;
+    background-color: rgba(51, 71, 23, 0.2);;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.content .title {
+    font-size: 3rem;
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.content .slogan {
+    font-size: 1.5rem;
+    max-width: 75%;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+#email-button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact-button {
+    background-color: #334717;
+    font-weight: 900;
+    text-decoration: none;
+    color: #8FC740;
+    font-size: 0.95rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: .625rem;
+}
+
+/* =================================== Welcome Section ===================================*/
+
+.welcome-section {
+    display: flex;
+    padding: 75px 0;
+    background-color: #AFD081;
+}
+
+.welcome-section-2 {
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#welcome .welcome-left {
+    display: flex;
+    width: 50%;
+}
+
+.welcome-section h2 {
+    margin: 20px 15px;
+    font-size: 1.25rem;
+}
+
+#welcome .welcome-right {
+    display: flex;
+    width: 50%;
+    border-left: 1px solid black;
+    text-align: inherit;
+}
+
+.welcome-section p {
+    margin-left: 25px;
+    margin-right: 15px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+
+
+/* =================================== Product Section ===================================*/
+
+.product-section {
+    padding: 10px 0;
+    background-color: #6A942F;
+}
+
+.product-section-2 {
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#product .product-left {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px #3C472C;
+}
+
+.product-left .product-left-img {
+    background-image: url(Image/Welding_Img_004.avif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#product .product-middle {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-top: none;
+    box-shadow: 0 2px #3C472C;
+}
+
+.product-middle .product-middle-img {
+    background-image: url(Image/Structural_Fabrication.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#product .product-right {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -2px 2px #3C472C;
+}
+
+.product-right .product-right-img {
+    background-image: url(Image/Metal_Fabrication.jpg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#product-button {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.product-section h2 {
+    font-size: 1.1rem;
+    margin: 20px 15px;
+}
+
+.product-section p {
+    margin: 20px 15px;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+#product .product-left-x {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px #3C472C;
+}
+
+.product-left-x .product-left-img-x {
+    background-image: url(Image/Mass_Production.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#product .product-middle-x {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-top: none;
+    box-shadow: 0 2px #3C472C;
+}
+
+.product-middle-x .product-middle-img-x {
+    background-image: url(Image/Pipe_Fabrication.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#product .product-right-x {
+    width: 33.333%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -2px 2px #3C472C;
+}
+
+.product-right-x .product-right-img-x {
+    background-image: url(Image/Consulting_Img.avif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+
+
+/* =================================== Team Section ===================================*/
+
+.team-background {
+    background: #AFD081;
+    text-align: center;
+    display: block;
+}
+
+/* .our-team {
+
+} */
+
+#teams .team-title h2 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.team-people h3 {
+    font-size: 1rem;
+}
+
+.team-people {
+    /* flex-wrap: wrap;  */
+    display: flex;
+    margin: 0 15%;
+}
+
+.team-1 .team-1-img {
+    background-image: url(Image/Office-Img3.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#teams .team-1 {
+    width: 33.333%;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.team-2 .team-2-img {
+    background-image: url(Image/Pres_and_Vice_Img.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#teams .team-2 {
+    width: 33.333%;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* .team-3 .team-3-img {
+    background-image: url(/Image/CEO_Img.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#teams .team-3 {
+    width: 25%;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+} */
+
+.team-4 .team-4-img {
+    background-image: url(Image/Group_Img.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+#teams .team-4 {
+    width: 33.333%;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* =================================== Footer ===================================*/
+
+#footer {
+    background-color: #334717;
+    display: flex;
+}
+
+.footer-1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+}
+
+.logo-bottom {
+    padding: 0 10px;
+}
+
+footer a {
+    color: #8FC740;
+    text-decoration: none;
+    display: flex;
+    text-shadow: 1px 1px 1px black;
+}
+
+.logo-bottom {
+    width: 50%;
+    margin: 0;
+}
+
+/* footer .navigation{
+    width: 50%;
+}
+
+.foot-nav .foot-nav-1 {
+    width: 25%;
+    display: flex;
+    float: left;
+}
+
+.foot-nav .foot-nav-2 {
+    width: 25%;
+    float: left;
+}
+
+.navigation .foot-nav ul {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    margin: .5rem;
+} */
+
+footer .footer-logo img {
+    width: 30px;
+}
+
+footer .name-logo {
+    font-size: 0.55rem;
+}
+
+.contact {
+    width: 50%;
+    align-self: center;
+}
+
+.contact h5 {
+    font-size: 0.65rem;
+    text-align: right;
+    line-height: 1;
+    margin: 10px;
+    color:#8FC740;
+    text-shadow: 1px 1px 1px black;
+}
+
